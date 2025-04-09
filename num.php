@@ -17,8 +17,21 @@
         <button type="submit" name="resultado" value="">Enviar</button>
     </form>
 
-    <?php 
-        if($_SERVER["REQUEST_METHOD"]=="POST"){$n1=$_POST["n1"];function showResult($resultado){echo "Resultado da operação: $resultado";}if($n1>0){showResult("Positivo");}elseif($n1==0){showResult("Valor igual a zero");}else{showResult("Valor negativo");}}
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $n1 = $_POST["n1"];
+        function showResult($resultado)
+        {
+            echo "Resultado da operação: $resultado";
+        }
+        if ($n1 > 0) {
+            showResult("Positivo");
+        } elseif ($n1 == 0) {
+            showResult("Valor igual a zero");
+        } else {
+            showResult("Valor negativo");
+        }
+    }
     ?>
 
 
