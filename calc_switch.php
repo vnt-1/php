@@ -53,16 +53,16 @@
         }
 
         switch ($op) {
-            case $op == "soma":
+            case "soma":
                 $resultado = soma($n1, $n2);
                 break;
-            case $op == "sub":
+            case "sub":
                 $resultado = sub($n1, $n2);
                 break;
-            case $op == "mult":
+            case "mult":
                 $resultado = mult($n1, $n2);
                 break;
-            case $op == "div":
+            case "div":
                 $resultado = div($n1, $n2);
                 break;
         }
