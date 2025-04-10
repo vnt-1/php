@@ -32,7 +32,7 @@
                 echo "$i ";
             }
         } else {
-            echo "$n1";
+            echo "Não há números intermediários entre dois números iguais.";
         }
     }
     ?>
