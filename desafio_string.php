@@ -22,6 +22,9 @@
         $n2 = strlen($str);
         $n1 = 0;
 
+        echo "A string é: $str<br>";
+        echo "Caracteres totais = $n2<br>";
+
         if ($n1 < $n2) {
             for ($i = $n1 + 1; $i < $n2; $i++) {
                 echo "$i ";
